@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>luenfire art</title>
-		
-		<style>
-			p{
-				text-indent:50px; text-align:justify; 
-				margin:1% 14%; line-height:30px;
-			}
-			
-			body{url(
-			background-image: url
-			}
-		</style>
-	</head>
+<head>
+	<title>luenfire art</title>
+	<link rel="shortcut icon" type="image/png" href="image/favicon.png">
+	<style>
+		p{
+			text-indent:50px; text-align:justify;
+			margin:1% 14%; line-height:30px;
+		}
 
-	<body>
-		<center>
-		<h1>LUENFIRE ART</h1>
+		body{
+		text-align: center;
+		background-image: url("image/meat.jpg");
+		background-size: 100%;
+		margin: 10%;
+		}
 
-		<input type="button" value="store"
-		onclick="window.open('https://www.etsy.com/shop/luenfire')">
-		<input type="button" value="instagram"
-		onclick="window.open('http://www.instagram.com/luenfire')">
-		<input type="button" value="portfolio"
-		onclick="window.open('https://www.behance.net/luenfire')">
-		
-		<input type="button" value="twitter"
-		onclick="window.open('http://www.twitter.com/luenfire')">
-		
+		.button {
+		  background-color: #000000;
+			width: 600px;
+			height: 200px;
+			-webkit-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+		  border: none;
+		  color: white;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 100px;
+			font-family: impact;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+		.button:hover{
+			background-color: #ffffff;
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+
+	<input type="button" class="button" value="STORE"
+	onclick="window.open('https://www.etsy.com/shop/luenfire')">
+	<br><br><br>
+
+	<input type="button" class="button" value="PORTFOLIO"
+	onclick="window.open('https://www.behance.net/luenfire')">
+	<br><br><br>
+
+	<input type="button" class="button" value="INSTAGRAM"
+	onclick="window.open('http://www.instagram.com/luenfire')">
+	<br><br><br>
+
+	<input type="button" class="button" value="TWITTER"
+	onclick="window.open('http://www.twitter.com/luenfire')">
+
 	</center>
-	</body>
+</body>
 </html>
